@@ -14,10 +14,19 @@ h1{
 }
 
 img{
-    width: 50%;
+    width: 20%;
 }
 
 figure{
 
     text-align: center;
+}
+
+.img_topo{
+    width: 80%;
+}
+p{
+    font-size: 1.2em;
+    text-indent: 15px;
+    text-align: justify;
 }
