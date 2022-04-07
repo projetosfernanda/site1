@@ -30,3 +30,15 @@ p{
     text-indent: 15px;
     text-align: justify;
 }
+
+.img_insta{
+    width: 5%;
+}
+
+.img_twitter{
+    width: 5%;
+}
+
+a{
+    color: black;
+}
