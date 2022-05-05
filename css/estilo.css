@@ -43,3 +43,12 @@ a{
     color: black;
     width: 20%;
 }
+
+footer {
+    text-align: 80%;
+    padding: 20px;
+    background-color: #f8b037;
+    color: white;
+  }
+
+ 
