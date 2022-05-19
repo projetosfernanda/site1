@@ -1,3 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.itens_menu{
+    text-align: center;
+}
+
+.itens_menu li{
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+
 body{
     background-color: white;
 }
@@ -10,7 +23,9 @@ margin: auto;
 }
 
 h1{
-    text-align: center;
+    font-size: 2em;
+    margin: 1%;
+    margin-bottom: 1%;
 }
 
 img{
@@ -20,6 +35,8 @@ img{
 figure{
 
     text-align: center;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }
 
 .img_topo{
@@ -29,6 +46,7 @@ p{
     font-size: 1.2em;
     text-indent: 15px;
     text-align: justify;
+    line-height: 1.5;
 }
 
 .img_insta{
@@ -45,10 +63,17 @@ a{
 }
 
 footer {
-    text-align: 80%;
+    text-align: center;
     padding: 20px;
     background-color: #f8b037;
     color: white;
   }
+
+  section{
+      margin-top: 2%;
+      margin-bottom: 2%;
+  }
+
+
 
  
