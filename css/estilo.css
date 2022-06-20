@@ -46,6 +46,13 @@ h3{
     margin-bottom: 1%;
 }
 
+h4{
+    text-align: center;
+    color: #ac7414;
+    font-size: 2em;
+    margin: 1%;
+    margin-bottom: 1%;
+}
 
 img{
     width: 20%;
@@ -62,6 +69,8 @@ figure{
     width: 80%;
 }
 p{
+    margin-left: 7%;
+    margin-right: 7%;
     font-size: 1.2em;
     text-indent: 15px;
     text-align: justify;
@@ -88,12 +97,12 @@ footer {
     color: white;
   }
 
-  section{
+section{
       margin-top: 2%;
       margin-bottom: 2%;
   }
 
-  .itens_menu a:link, .itens_menu a:visited{
+.itens_menu a:link, .itens_menu a:visited{
       color: black;
       text-decoration: none;
   }
@@ -110,4 +119,31 @@ li.a{
     line-height: 1.5;
   }
 
- 
+.direita{
+    float: right;
+    margin-left: 2%; 
+    width: 20%;
+  }
+
+  
+/* unvisited link */
+a:link {
+    color: #ac7414;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #ac7414; 
+  
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #ac7414; 
+  
+  }
+  
+  /* selected link */
+  a:active {
+    color: black; 
+  }
