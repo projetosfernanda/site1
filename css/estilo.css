@@ -126,7 +126,7 @@ li.a{
   }
 
   
-/* unvisited link */
+ /* unvisited link */
 a:link {
     color: #ac7414;
   }
@@ -147,3 +147,9 @@ a:link {
   a:active {
     color: black; 
   }
+
+.voltar{
+    text-align: center;
+    text-indent: 40px;
+    font-size: 1.5em;
+}
