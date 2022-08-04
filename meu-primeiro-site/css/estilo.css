@@ -1,0 +1,187 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.itens_menu{
+    text-align: center;
+}
+
+.itens_menu li{
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+
+body{
+    background-color: white;
+}
+
+.container{
+
+width: 80%;
+margin: auto;
+
+}
+
+h1{
+    text-align: center;
+    color: #f8b037;
+    font-size: 2em;
+    margin: 1%;
+    margin-bottom: 1%;
+    font-family: 'Staatliches', cursive;
+}
+
+h2{
+    text-align: center;
+    color: #f8b037;
+    font-size: 2em;
+    margin: 1%;
+    margin-bottom: 1%;
+    font-family: 'Staatliches', cursive;
+}
+
+h3{
+    text-align: center;
+    color: #f8b037;
+    font-size: 2em;
+    margin: 1%;
+    margin-bottom: 1%;
+    font-family: 'Staatliches', cursive;
+}
+
+h4{
+    text-align: center;
+    color: #ac7414;
+    font-size: 2em;
+    margin: 1%;
+    margin-bottom: 1%;
+    font-family: 'Staatliches', cursive;
+}
+
+img{
+    width: 20%;
+}
+
+figure{
+
+    text-align: center;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.img_topo{
+    width: 80%;
+}
+p{
+    margin-left: 7%;
+    margin-right: 7%;
+    font-size: 1.2em;
+    text-indent: 15px;
+    text-align: justify;
+    line-height: 1.5;
+    font-family: 'Baloo 2', cursive;
+}
+
+.img_insta{
+    width: 5%;
+}
+
+.img_twitter{
+    width: 5%;
+}
+
+a{
+    color: black;
+    width: 20%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8b037;
+    color: white;
+  }
+
+section{
+      margin-top: 2%;
+      margin-bottom: 2%;
+  }
+
+.itens_menu a:link, .itens_menu a:visited{
+      color: black;
+      text-decoration: none;
+  }
+
+.itens_menu a:hover{
+    background-color: #f8b037;
+}
+
+li.a{
+    list-style-type: circle;
+    font-size: 1.2em;
+    text-indent: 15px;
+    text-align: justify;
+    line-height: 1.5;
+  }
+
+.direita{
+    float: right;
+    margin-left: 2%; 
+    width: 20%;
+  }
+
+  
+ /* unvisited link */
+a:link {
+    color: #ac7414;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #ac7414; 
+  
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #ac7414; 
+  
+  }
+  
+  /* selected link */
+  a:active {
+    color: black; 
+  }
+
+.voltar{
+    text-align: center;
+    text-indent: 40px;
+    font-size: 1.5em;
+}
+
+table, th, td {
+    border: 3px dashed #ac7414;
+    padding: 1.5%;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+  }
+
+td:first-child { 
+    width: 40%;  
+}
+td:first-child + td {  
+    width: 60%; 
+}
+
+th{
+    font-size: 1.5em;
+    font-weight: bolder;  
+}
+
+audio{
+    width: 80%;
+}
+
+audio::-webkit-media-controls-panel{ 
+    background-color:#ac7414 !important; 
+}
