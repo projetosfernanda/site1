@@ -158,3 +158,38 @@ a:link {
     text-indent: 40px;
     font-size: 1.5em;
 }
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 3px dashed #ac7414;
+    padding: 1.5%;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+  }
+
+td:first-child { 
+    width: 40%;  
+}
+td:first-child + td {  
+    width: 60%; 
+}
+
+th{
+
+    font-size: 1.5em;
+    font-weight: bolder;
+    color;  
+
+}
+
+audio{
+    width: 80%;
+}
+
+audio::-webkit-media-controls-panel{ 
+    background-color:#ac7414 !important; 
+}
