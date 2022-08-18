@@ -100,17 +100,17 @@ footer {
     padding: 20px;
     background-color: #f8b037;
     color: white;
-  }
+}
 
 section{
       margin-top: 2%;
       margin-bottom: 2%;
-  }
+}
 
 .itens_menu a:link, .itens_menu a:visited{
       color: black;
       text-decoration: none;
-  }
+}
 
 .itens_menu a:hover{
     background-color: #f8b037;
@@ -122,36 +122,36 @@ li.a{
     text-indent: 15px;
     text-align: justify;
     line-height: 1.5;
-  }
+}
 
 .direita{
     float: right;
     margin-left: 2%; 
     width: 20%;
-  }
+}
 
   
  /* unvisited link */
 a:link {
     color: #ac7414;
-  }
+}
   
   /* visited link */
   a:visited {
     color: #ac7414; 
   
-  }
+}
   
   /* mouse over link */
   a:hover {
     color: #ac7414; 
   
-  }
+}
   
   /* selected link */
   a:active {
     color: black; 
-  }
+}
 
 .voltar{
     text-align: center;
@@ -169,7 +169,7 @@ table, th, td {
     padding: 1.5%;
     text-align: center;
     font-family: 'Staatliches', cursive;
-  }
+}
 
 td:first-child { 
     width: 40%;  
@@ -198,7 +198,6 @@ input[type=text], select, input[type=email], input[type=submit], input[type=tel]
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
-    display: inline-block;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
     box-sizing: border-box;
@@ -208,3 +207,37 @@ input[type=text], select, input[type=email], input[type=submit], input[type=tel]
 input[type=submit]:hover {
     background-color: #f8b037;
   }
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+ }
+
+ .form{
+    border-radius: 15px;
+    background-color: #F8F8FF;
+    padding: 10px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+  
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+form{
+    box-sizing: border-box;
+}
+  
