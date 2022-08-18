@@ -240,4 +240,10 @@ label {
 form{
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 400px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
   
