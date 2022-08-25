@@ -4,26 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>teste CSS interno e Inline</title>
+    <title> Teste CSS interno e Inline </title>
     <style>
         body{
-            background-color: brown;
-
+            background-color: rgb(255, 255, 255);
         }
 
         h1{
             text-align: center;
-            font-size: bold;
-
+            font-weight: bold;
         }
         p{
-            color: black;
+            color: rgba(243, 247, 23, 0.904);
         }
+
+        .container{
+            position:relative;
+            background-color: blueviolet;
+            width: 100%;
+            height: 1220px;
+            text-align: center;
+        }
+
+        .topoesquerda{
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(0, 119, 255);
+
+        }
+
+        .topodireita{
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(255, 0, 0);
+
+        }
+
+        .centro{
+            position: absolute;
+            top: 50%;
+            right: 40%;
+            width: 20%;
+            text-align: center;
+            font-size: 18px;
+            background-color: rgb(225, 0, 255);
+
+        }
+
+        .baixoesquerda{
+            position: absolute;
+            bottom: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(255, 208, 0);
+        }
+
+        .baixodireita{
+            position: absolute;
+            bottom: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(255, 208, 0);
+        }
+
+        .fixo{
+            position: fixed;
+            z-index: 1030;
+            right: 0%;
+            left: 0%;
+            top: 0%;
+        }
+
+
     </style>
 </head>
 <body>
-    <h1 style="color:rgb(13, 181, 233);text-align:center;">TESTE CSS INTERNO E INLINE</h1>
-    <P style="color:rgb(226, 153, 17);">teste teste teste teste teste teste este teste teste teste teste teste este teste teste teste teste teste </P>
-    <p style="color:rgb(153, 42, 187);">.............. TESTANDO BLA BLA NJHUAFUHQAUIHF HJIOHOIGHOIAHAOIHFOASIUHOIADHGIZNGSGEGNGYHIOSUHGUESGB AHGUIOHSDGUI</p>
+    
+    <header>
+        <h1 class="fixo" style="background-color:brown;color: cyan;"> Teste CSS interno e Inline </h1>
+        <p style="background-color: aquamarine; font-style: italic;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae esse atque autem rem aliquam. Iure laboriosam beatae in quidem possimus voluptatem, explicabo cupiditate aut minima natus quibusdam impedit quasi magni!</p>
+        <p style="background-color: aquamarine; font-style: italic;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, corporis molestias itaque, ut perferendis tempora voluptate quibusdam beatae ea voluptas omnis rem commodi laboriosam odit nostrum architecto, quaerat consectetur corrupti!</p>
+    </header>
+    <div class="main">
+        <h1>Testando....</h1>
+        <div class="container">
+            <div class="topoesquerda">TopoEsq</div>
+            <div class="topodireita">TopoDir</div>
+            <div class="baixoesquerda">BaixoEsq</div>
+            <div class="baixodireita">BaixoDir</div>
+            <div class="centro">Centro</div>
+        </div>
+
+    </div>
 </body>
 </html>
