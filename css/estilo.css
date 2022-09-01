@@ -17,9 +17,16 @@ body{
 
 .container{
 
-width: 80%;
-margin: auto;
+    width: 80%;
+    margin: auto;
+    position: relative;
 
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 h1{
@@ -71,6 +78,7 @@ figure{
 
 .img_topo{
     width: 80%;
+    margin-top: 20%;
 }
 p{
     margin-left: 7%;
@@ -241,9 +249,12 @@ form{
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 400px) 
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
     }
   
+.img_dtopoo{
+    width: 10%;
+}
