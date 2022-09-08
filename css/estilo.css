@@ -24,6 +24,15 @@ body{
 }
 
 header{
+    background-color: #ac7414;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    top: 0%;
+}
+
+.fixo{
     position: fixed;
     width: 100%;
     z-index: 1000;
@@ -249,12 +258,39 @@ form{
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 400px) 
+.img_dtopoo{
+    width: 10%;
+}
+
+@media screen and (max-width: 600px) { 
+
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
     }
-  
-.img_dtopoo{
-    width: 10%;
 }
+
+@media screen and (min-width: 601px){
+    header{
+        background-color: #f8b037;
+        flex-direction: row;
+        
+    }
+
+    .itens_menu{
+        position: absolute;
+        right: 6%;
+        top: 40%;
+        width: 70%;
+    }
+    .itens_menu ul li{
+        display: inline;
+        margin-left: 1%;
+    }
+
+    .img_dtopoo{
+        margin-right: 60%;
+    }
+
+}
+  
