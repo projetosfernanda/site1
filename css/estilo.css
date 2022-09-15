@@ -23,12 +23,13 @@ body{
 
 }
 
-header{
-    background-color: #ac7414;
+header {
+    background-color: rgba(250,188,77, 0.9);
     padding: 2%;
+    font-family: Courier New, monospace;  
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    align-items: center;
     top: 0%;
 }
 
@@ -44,7 +45,7 @@ h1{
     font-size: 2em;
     margin: 1%;
     margin-bottom: 1%;
-    font-family: 'Staatliches', cursive;
+    font-family: Courier New, monospace;
 }
 
 h2{
@@ -53,7 +54,7 @@ h2{
     font-size: 2em;
     margin: 1%;
     margin-bottom: 1%;
-    font-family: 'Staatliches', cursive;
+    font-family: Courier New, monospacee;
 }
 
 h3{
@@ -62,7 +63,7 @@ h3{
     font-size: 2em;
     margin: 1%;
     margin-bottom: 1%;
-    font-family: 'Staatliches', cursive;
+    font-family: Courier New, monospace;
 }
 
 h4{
@@ -71,7 +72,7 @@ h4{
     font-size: 2em;
     margin: 1%;
     margin-bottom: 1%;
-    font-family: 'Staatliches', cursive;
+    font-family: Courier New, monospace;
 }
 
 img{
@@ -85,7 +86,7 @@ figure{
     margin-bottom: 1.5%;
 }
 
-.img_topo{
+.banner{
     width: 80%;
     margin-top: 20%;
 }
@@ -96,7 +97,7 @@ p{
     text-indent: 15px;
     text-align: justify;
     line-height: 1.5;
-    font-family: 'Baloo 2', cursive;
+    font-family: FreeMono, monospace;
 }
 
 .img_insta{
@@ -262,35 +263,70 @@ form{
     width: 10%;
 }
 
-@media screen and (max-width: 600px) { 
+@media screen and (max-width:600px) {
 
     .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-}
-
-@media screen and (min-width: 601px){
-    header{
-        background-color: #f8b037;
-        flex-direction: row;
+        width: 100%;
+        margin-top: 0;
+      }   
+      
+      .logo{
+        text-align: center;
         
     }
 
+    .img_logo{
+        width: 20%;
+    }
+
+
+    .banner{
+        margin-top: 40%;
+    }
+
+    .descer{
+        margin-top: 80%;
+    }
+
+
+  }
+
+
+@media screen and (min-width:601px) {
+
+    header{
+        background-color: rgba(250,188,77, 0.9);
+        flex-direction: row;
+        padding: 3%;
+    }    
+
     .itens_menu{
         position: absolute;
-        right: 6%;
-        top: 40%;
+        right: 2%;      
         width: 70%;
     }
+
     .itens_menu ul li{
         display: inline;
         margin-left: 1%;
     }
-
-    .img_dtopoo{
-        margin-right: 60%;
+    .img_logo{
+        width: 20%;
     }
 
-}
+    .logo{
+        width: 30%;
+        text-align: left;
+    }
+
+    .banner{
+        margin-top: 10%;
+    }
+
+    .descer{
+        margin-top: 15%;
+    }
+
+  }
+
   
